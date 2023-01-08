@@ -12,8 +12,8 @@ const CONFIG = {
   },
   projects: [
     {
-      // name: 'Untilled',
-      // href: 'https://untilled.web.app'
+      name: "Secret",
+      href: "",
     },
   ],
   // blog setting (required)
