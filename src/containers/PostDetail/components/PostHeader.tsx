@@ -1,14 +1,14 @@
-import CONFIG from '@/morethan-log.config'
-import Tag from '@components/Tag'
-import imageLoader from '@/src/libs/next/imageLoader'
-import { TPost } from '@/src/types'
-import {formatDate} from '@/src/libs/utils'
-import Image from 'next/image'
-import React from 'react'
+import CONFIG from "@/morethan-log.config";
+import Tag from "@components/Tag";
+import imageLoader from "@/src/libs/next/imageLoader";
+import { TPost } from "@/src/types";
+import { formatDate } from "@/src/libs/utils";
+import Image from "next/image";
+import React from "react";
 
 type Props = {
-  data: TPost
-}
+  data: TPost;
+};
 
 const PostHeader: React.FC<Props> = ({ data }) => {
   return (
@@ -16,21 +16,21 @@ const PostHeader: React.FC<Props> = ({ data }) => {
       <h1 className="font-bold text-3xl text-black dark:text-white">
         {data.title}
       </h1>
-      {data.type[0] !== 'Page' && (
+      {data.type[0] !== "Page" && (
         <nav className="mt-7 text-gray-500 dark:text-gray-400">
           <div className="flex items-center gap-4 mb-3">
-            {data.author && data.author[0] && (
+            {data?.author && data?.author[0] && (
               <div className="flex items-center gap-2">
                 <Image
                   className="rounded-full"
-                  src={data.author[0].profile_photo}
+                  src={data?.author[0].profile_photo}
                   alt="profile_photo"
                   loader={imageLoader}
                   width={24}
                   height={24}
                 />
                 <div className="">
-                  {`${data.author[0].last_name}${data.author[0].first_name}`}
+                  {`${data?.author[0]?.last_name}${data?.author[0]?.first_name}`}
                 </div>
               </div>
             )}
@@ -53,7 +53,7 @@ const PostHeader: React.FC<Props> = ({ data }) => {
         </nav>
       )}
     </>
-  )
-}
+  );
+};
 
-export default PostHeader
+export default PostHeader;
