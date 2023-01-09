@@ -20,7 +20,7 @@ const CONFIG = {
   blog: {
     title: "truelog",
     description: "welcome to truelog!",
-    theme: "light", // ['light', 'dark', 'auto']
+    theme: "auto", // ['light', 'dark', 'auto']
   },
 
   // CONFIG configration (required)
