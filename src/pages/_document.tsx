@@ -50,7 +50,7 @@ class MyDocument extends Document {
               </noscript>
             </>
           )}
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/leetrue.jpeg" />
           <link
             rel="apple-touch-icon"
             sizes="192x192"
