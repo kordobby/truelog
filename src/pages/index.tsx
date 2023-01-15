@@ -40,11 +40,7 @@ FeedPage.getLayout = function getlayout(page) {
       metaConfig={{
         title: CONFIG.blog.title,
         description: CONFIG.blog.description,
-<<<<<<< HEAD
-        type: 'website',
-=======
         type: "website",
->>>>>>> upstream/main
         url: CONFIG.link,
       }}
     >

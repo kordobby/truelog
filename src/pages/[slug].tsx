@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-import PostDetail from '@containers/PostDetail'
-import { getAllPosts, getPostBlocks } from '@libs/notion'
-import Layout from '@components/Layout'
-import CONFIG from '../../morethan-log.config'
-import { NextPageWithLayout } from './_app'
-import { TPost } from '../types'
-=======
 import PostDetail from "@containers/PostDetail"
 import { getAllPosts, getPostBlocks } from "@libs/notion"
 import Layout from "@components/Layout"
@@ -13,7 +5,6 @@ import CONFIG from "../../site.config"
 import { NextPageWithLayout } from "./_app"
 import { TPost } from "../types"
 import CustomError from "../containers/CustomError"
->>>>>>> upstream/main
 
 export async function getStaticPaths() {
   const posts = await getAllPosts({ includePages: true })
