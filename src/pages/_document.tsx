@@ -7,7 +7,7 @@ class MyDocument extends Document {
     return (
       <Html lang={CONFIG.lang}>
         <Head>
-          {/* font setting */}
+          {/* font settindddg */}
           <>
             <link
               rel="preload"
