@@ -50,7 +50,7 @@ PostDetailPage.getLayout = function getlayout(page) {
         page.props?.post.title
       )}.png?theme=dark&md=1&fontSize=125px&images=https%3A%2F%2Fmorethan-log.vercel.app%2Flogo-for-dark-bg.svg`
   }
-
+  //
   const getMetaConfig = () => {
     if (!page.props.post) {
       return {
