@@ -21,13 +21,6 @@ const PostHeader: React.FC<Props> = ({ data }) => {
             {data.author && data.author[0] && data.author[0].name && (
               <>
                 <div className="flex items-center gap-2">
-                  <Image
-                    className="rounded-full"
-                    src={data.author[0].profile_photo}
-                    alt="profile_photo"
-                    width={24}
-                    height={24}
-                  />
                   <div className="">{data.author[0].name}</div>
                 </div>
                 <div className="self-stretch w-px my-1 bg-gray-300"></div>
