@@ -8,7 +8,7 @@ import Image from "next/image"
 type Props = {
   post: TPost
 }
-
+//
 const PostCard: React.FC<Props> = ({ post }) => {
   if (post.thumbnail) {
   }
