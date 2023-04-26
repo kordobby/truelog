@@ -1,1 +1,8 @@
-{}
+{
+  "../containers/PostDetail/components/CommentBox.tsx -> @components/Utterances": {
+    "id": 5461,
+    "files": [
+      "static/chunks/461.24532fc8f1532675.js"
+    ]
+  }
+}
