@@ -14,7 +14,7 @@ type Props = {
 }
 
 const Feed: React.FC<Props> = ({ tags, posts }) => {
-  const [q, setQ] = useState("") //
+  const [q, setQ] = useState("") //sdfgv
 
   return (
     <div className="block md:grid grid-cols-12 gap-6">
