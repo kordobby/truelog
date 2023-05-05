@@ -15,7 +15,7 @@ type Props = {
 
 const Feed: React.FC<Props> = ({ tags, posts }) => {
   const [q, setQ] = useState("")
-
+  // console.log("hello")
   return (
     <div className="block md:grid grid-cols-12 gap-6">
       <Lists.TagList className="hidden lg:block col-span-2" data={tags} />
