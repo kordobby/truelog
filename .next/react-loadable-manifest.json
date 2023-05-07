@@ -1,8 +1,74 @@
 {
-  "../containers/PostDetail/components/CommentBox.tsx -> @components/Utterances": {
-    "id": 5461,
+  "../containers/Detail/components/PageDetail/index.tsx -> react-notion-x/build/third-party/code": {
+    "id": "../containers/Detail/components/PageDetail/index.tsx -> react-notion-x/build/third-party/code",
     "files": [
-      "static/chunks/461.24532fc8f1532675.js"
+      "static/chunks/node_modules_react-notion-x_build_third-party_code_js.js"
+    ]
+  },
+  "../containers/Detail/components/PageDetail/index.tsx -> react-notion-x/build/third-party/collection": {
+    "id": "../containers/Detail/components/PageDetail/index.tsx -> react-notion-x/build/third-party/collection",
+    "files": [
+      "static/chunks/node_modules_react-notion-x_build_third-party_collection_js.js"
+    ]
+  },
+  "../containers/Detail/components/PageDetail/index.tsx -> react-notion-x/build/third-party/equation": {
+    "id": "../containers/Detail/components/PageDetail/index.tsx -> react-notion-x/build/third-party/equation",
+    "files": [
+      "static/chunks/node_modules_react-notion-x_build_third-party_equation_js.js"
+    ]
+  },
+  "../containers/Detail/components/PageDetail/index.tsx -> react-notion-x/build/third-party/modal": {
+    "id": "../containers/Detail/components/PageDetail/index.tsx -> react-notion-x/build/third-party/modal",
+    "files": [
+      "static/chunks/node_modules_react-notion-x_build_third-party_modal_js.js"
+    ]
+  },
+  "../containers/Detail/components/PageDetail/index.tsx -> react-notion-x/build/third-party/pdf": {
+    "id": "../containers/Detail/components/PageDetail/index.tsx -> react-notion-x/build/third-party/pdf",
+    "files": [
+      "static/chunks/node_modules_react-notion-x_build_third-party_pdf_js.js"
+    ]
+  },
+  "../containers/Detail/components/PostDetail/CommentBox.tsx -> @components/Cusdis": {
+    "id": "../containers/Detail/components/PostDetail/CommentBox.tsx -> @components/Cusdis",
+    "files": [
+      "static/chunks/src_components_Cusdis_tsx.js"
+    ]
+  },
+  "../containers/Detail/components/PostDetail/CommentBox.tsx -> @components/Utterances": {
+    "id": "../containers/Detail/components/PostDetail/CommentBox.tsx -> @components/Utterances",
+    "files": [
+      "static/chunks/src_components_Utterances_tsx.js"
+    ]
+  },
+  "../containers/Detail/components/PostDetail/index.tsx -> react-notion-x/build/third-party/code": {
+    "id": "../containers/Detail/components/PostDetail/index.tsx -> react-notion-x/build/third-party/code",
+    "files": [
+      "static/chunks/node_modules_react-notion-x_build_third-party_code_js.js"
+    ]
+  },
+  "../containers/Detail/components/PostDetail/index.tsx -> react-notion-x/build/third-party/collection": {
+    "id": "../containers/Detail/components/PostDetail/index.tsx -> react-notion-x/build/third-party/collection",
+    "files": [
+      "static/chunks/node_modules_react-notion-x_build_third-party_collection_js.js"
+    ]
+  },
+  "../containers/Detail/components/PostDetail/index.tsx -> react-notion-x/build/third-party/equation": {
+    "id": "../containers/Detail/components/PostDetail/index.tsx -> react-notion-x/build/third-party/equation",
+    "files": [
+      "static/chunks/node_modules_react-notion-x_build_third-party_equation_js.js"
+    ]
+  },
+  "../containers/Detail/components/PostDetail/index.tsx -> react-notion-x/build/third-party/modal": {
+    "id": "../containers/Detail/components/PostDetail/index.tsx -> react-notion-x/build/third-party/modal",
+    "files": [
+      "static/chunks/node_modules_react-notion-x_build_third-party_modal_js.js"
+    ]
+  },
+  "../containers/Detail/components/PostDetail/index.tsx -> react-notion-x/build/third-party/pdf": {
+    "id": "../containers/Detail/components/PostDetail/index.tsx -> react-notion-x/build/third-party/pdf",
+    "files": [
+      "static/chunks/node_modules_react-notion-x_build_third-party_pdf_js.js"
     ]
   }
 }
