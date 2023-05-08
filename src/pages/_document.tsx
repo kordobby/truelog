@@ -25,8 +25,6 @@ class MyDocument extends Document {
           ></link>
           {/* theme setting */}
           <meta name="theme-color" content={"#f1f3f5"} />
-
-          {/* google search console */}
           {CONFIG.googleSearchConsole.enable === true && (
             <>
               <meta
