@@ -1,10 +1,10 @@
 {
-  "name": "morethan-log",
+  "name": "true-log",
   "version": "1.3.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/morethanmin/morethan-log.git"
+    "url": "https://github.com/kordobby/truelog.git"
   },
   "scripts": {
     "dev": "next dev",
