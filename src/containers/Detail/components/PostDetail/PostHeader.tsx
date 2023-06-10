@@ -8,8 +8,9 @@ import React from "react"
 type Props = {
   data: TPost
 }
-// Post
+
 const PostHeader: React.FC<Props> = ({ data }) => {
+  // @TODO need to fix photo
   return (
     <>
       <h1 className="font-bold text-3xl text-black dark:text-white">
