@@ -11,6 +11,7 @@ type Props = {
 
 const PostHeader: React.FC<Props> = ({ data }) => {
   // @TODO need to fix photo
+  // @TODO thumbnail
   return (
     <>
       <h1 className="font-bold text-3xl text-black dark:text-white">
