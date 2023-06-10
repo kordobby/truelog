@@ -8,7 +8,7 @@ import React from "react"
 type Props = {
   data: TPost
 }
-
+// Post
 const PostHeader: React.FC<Props> = ({ data }) => {
   return (
     <>
