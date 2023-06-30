@@ -6,9 +6,6 @@ type Props = {
   fullWidth: boolean
 }
 
-// type Props = {
-//   fullWidth: boolean
-// }
 const Header: React.FC<Props> = ({ fullWidth }) => {
   return (
     <div className="shadow-sm transition sticky bg-white dark:bg-zinc-700 mb-2 md:mb-6 border-b-[1px] z-[40] border-gray-100 dark:border-gray-800 top-0">
