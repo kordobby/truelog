@@ -2,6 +2,7 @@ import NavBar from "./NavBar"
 import Logo from "./Logo"
 import ThemeToggle from "./ThemeToggle"
 
+/* props props */
 type Props = {
   fullWidth: boolean
 }
