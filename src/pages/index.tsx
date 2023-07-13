@@ -30,7 +30,7 @@ export async function getStaticProps() {
         },
         posts: filteredPost,
       },
-      revalidate: 1,
+      // revalidate: 1,
     }
   } catch (error) {
     throw error
