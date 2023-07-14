@@ -18,14 +18,11 @@ export function filterPosts(posts: TPosts, options: Options = initialOption) {
   const { acceptStatus = ["Public"], acceptType = ["Post"] } = options
 
   const filteredPosts = posts
-    // filter data
     .filter((post) => {
-      // console.log(post)
       const postDate = new Date(post?.date?.start_date || post.createdTime)
       if (!post.title || !post.slug || postDate > tomorrow) return false
       return true
     })
-    // filter status
     .filter((post) => {
       const postStatus = post?.status?.[0]
       return acceptStatus.includes(postStatus)
