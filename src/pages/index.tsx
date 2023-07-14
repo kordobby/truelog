@@ -9,7 +9,7 @@ import { NextPageWithLayout } from "./_app"
 import { TCategories, TPosts, TTags } from "../types"
 import { getPosts } from "../libs/apis"
 import { DEFAULT_CATEGORY } from "../constants"
-
+// hello
 export async function getStaticProps() {
   try {
     const posts = await getPosts()
