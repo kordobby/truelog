@@ -16,7 +16,7 @@ tomorrow.setHours(0, 0, 0, 0)
 
 export function filterPosts(posts: TPosts, options: Options = initialOption) {
   const { acceptStatus = ["Public"], acceptType = ["Post"] } = options
-  //daf
+  //d
   const filteredPosts = posts
     .filter((post) => {
       const postDate = new Date(post?.date?.start_date || post.createdTime)
