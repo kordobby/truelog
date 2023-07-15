@@ -4,7 +4,7 @@ type Options = {
   acceptStatus?: TPostStatus[]
   acceptType?: TPostType[]
 }
-
+//
 const initialOption: Options = {
   acceptStatus: ["Public"],
   acceptType: ["Post"],
