@@ -27,7 +27,6 @@ export function filterPosts(posts: TPosts, options: Options = initialOption) {
       const postStatus = post?.status?.[0]
       return acceptStatus.includes(postStatus)
     })
-    // filter type
     .filter((post) => {
       const postType = post.type[0]
       return acceptType.includes(postType)
