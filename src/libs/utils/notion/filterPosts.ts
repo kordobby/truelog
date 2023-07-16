@@ -32,4 +32,4 @@ export function filterPosts(posts: TPosts, options: Options = initialOption) {
       return acceptType.includes(postType)
     })
   return filteredPosts
-} // ㅁㄱ
+} //
