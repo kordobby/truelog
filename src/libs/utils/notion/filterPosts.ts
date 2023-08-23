@@ -43,4 +43,4 @@ export function filterPosts(posts: TPosts, options: Options = initialOption) {
 // day 40
 // css-in-css
 // react life cycle -title
-// diary
+// diary - fix image
