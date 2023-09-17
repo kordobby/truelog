@@ -47,4 +47,4 @@ export function filterPosts(posts: TPosts, options: Options = initialOption) {
 // monthly - august
 // debuggin
 // 불변성 - 숮정
-// immer
+// immer - public
