@@ -49,3 +49,4 @@ export function filterPosts(posts: TPosts, options: Options = initialOption) {
 // 불변성 - 숮정
 // immer - public
 // hardware
+// 동시성 병렬성
