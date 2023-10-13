@@ -61,7 +61,7 @@ const CONFIG = {
     },
     // notion configuration (required)
     notionConfig: {
-        pageId: process.env.NOTION_PAGE_ID
+        pageId: "12c38b5f459d4eb9a759f92fba6cea36"
     },
     // plugin configuration (optional)
     googleAnalytics: {
@@ -174,7 +174,7 @@ const getPosts = async ()=>{
         const posts = data;
         return posts;
     }
-};
+}; // fix
 
 __webpack_async_result__();
 } catch(e) { __webpack_async_result__(e); } });

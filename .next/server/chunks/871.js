@@ -77,7 +77,7 @@ const getPosts = async ()=>{
         const posts = data;
         return posts;
     }
-};
+}; // fix
 
 __webpack_async_result__();
 } catch(e) { __webpack_async_result__(e); } });
