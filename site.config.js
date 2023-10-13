@@ -20,7 +20,7 @@ const CONFIG = {
   blog: {
     title: "truelog",
     description: "welcome to truelog!",
-    theme: "auto", // ['light', 'dark', 'auto']
+    theme: "light", // ['light', 'dark', 'auto']
   },
 
   // CONFIG configration (required)
@@ -31,7 +31,6 @@ const CONFIG = {
   seo: {
     keywords: ["Blog", "Website", "Notion"],
   },
-
   // notion configuration (required)
   notionConfig: {
     pageId: process.env.NOTION_PAGE_ID,
@@ -66,6 +65,7 @@ const CONFIG = {
     },
   },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
-}
+  revalidateTime: 21600 * 7, // revalidate time for [slug], index
+};
 
-module.exports = { CONFIG }
+module.exports = { CONFIG };

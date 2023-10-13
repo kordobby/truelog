@@ -1,11 +1,11 @@
-import { TPosts, TPostStatus, TPostType } from "@/src/types"
+import { TPosts, TPostStatus, TPostType } from "src/types"
 
-type Options = {
+export type FilterPostsOptions = {
   acceptStatus?: TPostStatus[]
   acceptType?: TPostType[]
 }
-//
-const initialOption: Options = {
+
+const initialOption: FilterPostsOptions = {
   acceptStatus: ["Public"],
   acceptType: ["Post"],
 }
@@ -14,19 +14,24 @@ const tomorrow = new Date(current)
 tomorrow.setDate(tomorrow.getDate() + 1)
 tomorrow.setHours(0, 0, 0, 0)
 
-export function filterPosts(posts: TPosts, options: Options = initialOption) {
+export function filterPosts(
+  posts: TPosts,
+  options: FilterPostsOptions = initialOption
+) {
   const { acceptStatus = ["Public"], acceptType = ["Post"] } = options
-  //d
   const filteredPosts = posts
+    // filter data
     .filter((post) => {
       const postDate = new Date(post?.date?.start_date || post.createdTime)
       if (!post.title || !post.slug || postDate > tomorrow) return false
       return true
     })
+    // filter status
     .filter((post) => {
-      const postStatus = post?.status?.[0]
+      const postStatus = post.status[0]
       return acceptStatus.includes(postStatus)
     })
+    // filter type
     .filter((post) => {
       const postType = post.type[0]
       return acceptType.includes(postType)

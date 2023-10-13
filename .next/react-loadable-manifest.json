@@ -1,82 +1,244 @@
 {
-  "../containers/Detail/components/PageDetail/index.tsx -> react-notion-x/build/third-party/code": {
+  "../routes/Detail/PostDetail/CommentBox/index.tsx -> ./Cusdis": {
+    "id": 4080,
+    "files": [
+      "static/chunks/4080.2441c09f6f1623ae.js"
+    ]
+  },
+  "../routes/Detail/PostDetail/CommentBox/index.tsx -> ./Utterances": {
+    "id": 1512,
+    "files": [
+      "static/chunks/1512.17a390e3a3797cc1.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-bash.js": {
+    "id": 7874,
+    "files": [
+      "static/chunks/7874.a3217bdb4cd4cf17.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-c.js": {
+    "id": 4279,
+    "files": [
+      "static/chunks/4279.871bcee6fb2b782b.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-coffeescript.js": {
+    "id": 6213,
+    "files": [
+      "static/chunks/6213.c947202c44706250.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-cpp.js": {
+    "id": 2731,
+    "files": [
+      "static/chunks/2731.41d71c785e8d7878.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-csharp.js": {
+    "id": 9016,
+    "files": [
+      "static/chunks/9016.d190818a11a4a973.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-diff.js": {
+    "id": 728,
+    "files": [
+      "static/chunks/728.b426275ede941d7b.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-docker.js": {
+    "id": 7158,
+    "files": [
+      "static/chunks/7158.a7b1cb3686a57e1c.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-git.js": {
+    "id": 9787,
+    "files": [
+      "static/chunks/9787.8ffe16e21079bd5f.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-go.js": {
+    "id": 7046,
+    "files": [
+      "static/chunks/7046.4f8fbcb6e166b7ac.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-graphql.js": {
+    "id": 7117,
+    "files": [
+      "static/chunks/7117.827481bb28166e5c.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-handlebars.js": {
+    "id": 110,
+    "files": [
+      "static/chunks/110.96db7c0a0baa0630.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-java.js": {
+    "id": 2503,
+    "files": [
+      "static/chunks/2503.a775dcba19dde669.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-js-templates.js": {
+    "id": 8885,
+    "files": [
+      "static/chunks/8885.481e50a210b4f089.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-less.js": {
+    "id": 7802,
+    "files": [
+      "static/chunks/7802.cd117b864d01e1e6.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-makefile.js": {
+    "id": 8443,
+    "files": [
+      "static/chunks/8443.cfc8d79f82682ea4.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-markdown.js": {
+    "id": 4064,
+    "files": [
+      "static/chunks/4064.49f152ac0bca9909.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-markup-templating.js": {
+    "id": 6854,
+    "files": [
+      "static/chunks/6854.dbb96ac05408a3e0.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-markup.js": {
+    "id": 4335,
+    "files": [
+      "static/chunks/4335.c4fd544864746a16.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-objectivec.js": {
+    "id": 1426,
+    "files": [
+      "static/chunks/1426.c08ec04b186317d2.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-ocaml.js": {
+    "id": 4371,
+    "files": [
+      "static/chunks/4371.31e35d75670b35bf.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-python.js": {
+    "id": 366,
+    "files": [
+      "static/chunks/366.33fa535f8fc0efad.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-reason.js": {
+    "id": 8439,
+    "files": [
+      "static/chunks/8439.b3a427ee30ccef9b.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-rust.js": {
+    "id": 767,
+    "files": [
+      "static/chunks/767.554874ed23f9df01.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-sass.js": {
+    "id": 9865,
+    "files": [
+      "static/chunks/9865.e11c4f796f619c16.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-scss.js": {
+    "id": 2447,
+    "files": [
+      "static/chunks/2447.54f95eb2ee72c0d4.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-solidity.js": {
+    "id": 893,
+    "files": [
+      "static/chunks/893.e8a2689914e1e72b.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-sql.js": {
+    "id": 5266,
+    "files": [
+      "static/chunks/5266.2891cf215cd99695.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-stylus.js": {
+    "id": 4906,
+    "files": [
+      "static/chunks/4906.6a0d027635add55a.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-swift.js": {
+    "id": 874,
+    "files": [
+      "static/chunks/874.3cacd1617a856f7c.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-wasm.js": {
+    "id": 5774,
+    "files": [
+      "static/chunks/5774.1fc580e96fb7c4a4.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> prismjs/components/prism-yaml.js": {
+    "id": 3358,
+    "files": [
+      "static/chunks/3358.bd17cd18f70cd0d8.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> react-notion-x": {
+    "id": 4793,
+    "files": [
+      "static/chunks/4728.1349580490ff5c22.js",
+      "static/chunks/4793.79b52388649d0615.js"
+    ]
+  },
+  "../routes/Detail/components/NotionRenderer/index.tsx -> react-notion-x/build/third-party/code": {
     "id": 1794,
     "files": [
-      "static/chunks/794.e534ad0d5a24407c.js"
+      "static/chunks/4728.1349580490ff5c22.js",
+      "static/chunks/1794.a00aced16acc12bb.js"
     ]
   },
-  "../containers/Detail/components/PageDetail/index.tsx -> react-notion-x/build/third-party/collection": {
+  "../routes/Detail/components/NotionRenderer/index.tsx -> react-notion-x/build/third-party/collection": {
     "id": 635,
     "files": [
-      "static/chunks/3607272e.480075793513f3d6.js",
-      "static/chunks/853.6df9efab3df1b941.js"
+      "static/chunks/3607272e.ef7b96a9d1caf11f.js",
+      "static/chunks/4728.1349580490ff5c22.js",
+      "static/chunks/5853.060ff103cbb1aa99.js"
     ]
   },
-  "../containers/Detail/components/PageDetail/index.tsx -> react-notion-x/build/third-party/equation": {
+  "../routes/Detail/components/NotionRenderer/index.tsx -> react-notion-x/build/third-party/equation": {
     "id": 7274,
     "files": [
-      "static/chunks/175675d1.6dbfc42f11a750f0.js",
-      "static/chunks/274.c019075c0cebfe9b.js"
+      "static/chunks/175675d1.948ac199909b1aa8.js",
+      "static/chunks/4728.1349580490ff5c22.js",
+      "static/chunks/7274.5d876e57eb273644.js"
     ]
   },
-  "../containers/Detail/components/PageDetail/index.tsx -> react-notion-x/build/third-party/modal": {
+  "../routes/Detail/components/NotionRenderer/index.tsx -> react-notion-x/build/third-party/modal": {
     "id": 6873,
     "files": [
-      "static/chunks/873.b087c1bb2dcb4248.js"
+      "static/chunks/6873.57977d63c1f7b02d.js"
     ]
   },
-  "../containers/Detail/components/PageDetail/index.tsx -> react-notion-x/build/third-party/pdf": {
+  "../routes/Detail/components/NotionRenderer/index.tsx -> react-notion-x/build/third-party/pdf": {
     "id": 924,
     "files": [
-      "static/chunks/906a09f8.19a00b65e0bcaf8e.js",
-      "static/chunks/451.379a9e618b790612.js",
-      "static/chunks/738.bacd146cf1ccdd57.js"
-    ]
-  },
-  "../containers/Detail/components/PostDetail/CommentBox.tsx -> @components/Cusdis": {
-    "id": 1839,
-    "files": [
-      "static/chunks/839.7662170341a711e7.js"
-    ]
-  },
-  "../containers/Detail/components/PostDetail/CommentBox.tsx -> @components/Utterances": {
-    "id": 5461,
-    "files": [
-      "static/chunks/461.3a45000f0b124f25.js"
-    ]
-  },
-  "../containers/Detail/components/PostDetail/index.tsx -> react-notion-x/build/third-party/code": {
-    "id": 1794,
-    "files": [
-      "static/chunks/794.e534ad0d5a24407c.js"
-    ]
-  },
-  "../containers/Detail/components/PostDetail/index.tsx -> react-notion-x/build/third-party/collection": {
-    "id": 635,
-    "files": [
-      "static/chunks/3607272e.480075793513f3d6.js",
-      "static/chunks/853.6df9efab3df1b941.js"
-    ]
-  },
-  "../containers/Detail/components/PostDetail/index.tsx -> react-notion-x/build/third-party/equation": {
-    "id": 7274,
-    "files": [
-      "static/chunks/175675d1.6dbfc42f11a750f0.js",
-      "static/chunks/274.c019075c0cebfe9b.js"
-    ]
-  },
-  "../containers/Detail/components/PostDetail/index.tsx -> react-notion-x/build/third-party/modal": {
-    "id": 6873,
-    "files": [
-      "static/chunks/873.b087c1bb2dcb4248.js"
-    ]
-  },
-  "../containers/Detail/components/PostDetail/index.tsx -> react-notion-x/build/third-party/pdf": {
-    "id": 924,
-    "files": [
-      "static/chunks/906a09f8.19a00b65e0bcaf8e.js",
-      "static/chunks/451.379a9e618b790612.js",
-      "static/chunks/738.bacd146cf1ccdd57.js"
+      "static/chunks/906a09f8.9704636a5e11784d.js",
+      "static/chunks/5451.1a168b4974fbf83e.js",
+      "static/chunks/5738.62ed1ab00444e2c9.js"
     ]
   }
 }

@@ -5,162 +5,217 @@ exports.id = 888;
 exports.ids = [888];
 exports.modules = {
 
-/***/ 185:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ 6042:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
 
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+__webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__),
-/* harmony export */   "g": () => (/* binding */ getTheme)
+/* harmony export */   config: () => (/* binding */ config),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   getServerSideProps: () => (/* binding */ getServerSideProps),
+/* harmony export */   getStaticPaths: () => (/* binding */ getStaticPaths),
+/* harmony export */   getStaticProps: () => (/* binding */ getStaticProps),
+/* harmony export */   reportWebVitals: () => (/* binding */ reportWebVitals),
+/* harmony export */   routeModule: () => (/* binding */ routeModule),
+/* harmony export */   unstable_getServerProps: () => (/* binding */ unstable_getServerProps),
+/* harmony export */   unstable_getServerSideProps: () => (/* binding */ unstable_getServerSideProps),
+/* harmony export */   unstable_getStaticParams: () => (/* binding */ unstable_getStaticParams),
+/* harmony export */   unstable_getStaticPaths: () => (/* binding */ unstable_getStaticPaths),
+/* harmony export */   unstable_getStaticProps: () => (/* binding */ unstable_getStaticProps)
 /* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var site_config__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(9313);
-/* harmony import */ var site_config__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(site_config__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_dist_server_future_route_modules_pages_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3185);
+/* harmony import */ var next_dist_server_future_route_modules_pages_module__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_future_route_modules_pages_module__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7182);
+/* harmony import */ var private_next_pages_document_tsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3104);
+/* harmony import */ var private_next_pages_app_tsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9212);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([private_next_pages_document_tsx__WEBPACK_IMPORTED_MODULE_2__, private_next_pages_app_tsx__WEBPACK_IMPORTED_MODULE_3__]);
+([private_next_pages_document_tsx__WEBPACK_IMPORTED_MODULE_2__, private_next_pages_app_tsx__WEBPACK_IMPORTED_MODULE_3__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
 
+        // Next.js Route Loader
+        
+        
 
-const getTheme = ()=>{
-    const themeConfig = site_config__WEBPACK_IMPORTED_MODULE_1__.CONFIG.blog.theme;
-    if (themeConfig !== "auto") return themeConfig;
-    if (localStorage.theme === "dark" || !("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches) {
-        return "dark";
-    } else {
-        return "light";
-    }
-};
-const useThemeEffect = ()=>{
-    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(()=>{
-        if (typeof document !== "object") return;
-        if (getTheme() === "dark") {
-            document.documentElement.classList.add("dark");
-        } else {
-            document.documentElement.classList.remove("dark");
-        }
-    }, []);
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (useThemeEffect);
+        // Import the app and document modules.
+        
+        
 
+        // Import the userland code.
+        
+
+        // Re-export the component (should be the default export).
+        /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_1__/* .hoist */ .l)(private_next_pages_app_tsx__WEBPACK_IMPORTED_MODULE_3__, "default"));
+
+        // Re-export methods.
+        const getStaticProps = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_1__/* .hoist */ .l)(private_next_pages_app_tsx__WEBPACK_IMPORTED_MODULE_3__, "getStaticProps")
+        const getStaticPaths = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_1__/* .hoist */ .l)(private_next_pages_app_tsx__WEBPACK_IMPORTED_MODULE_3__, "getStaticPaths")
+        const getServerSideProps = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_1__/* .hoist */ .l)(private_next_pages_app_tsx__WEBPACK_IMPORTED_MODULE_3__, "getServerSideProps")
+        const config = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_1__/* .hoist */ .l)(private_next_pages_app_tsx__WEBPACK_IMPORTED_MODULE_3__, "config")
+        const reportWebVitals = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_1__/* .hoist */ .l)(private_next_pages_app_tsx__WEBPACK_IMPORTED_MODULE_3__, "reportWebVitals")
+        
+
+        // Re-export legacy methods.
+        const unstable_getStaticProps = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_1__/* .hoist */ .l)(private_next_pages_app_tsx__WEBPACK_IMPORTED_MODULE_3__, "unstable_getStaticProps")
+        const unstable_getStaticPaths = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_1__/* .hoist */ .l)(private_next_pages_app_tsx__WEBPACK_IMPORTED_MODULE_3__, "unstable_getStaticPaths")
+        const unstable_getStaticParams = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_1__/* .hoist */ .l)(private_next_pages_app_tsx__WEBPACK_IMPORTED_MODULE_3__, "unstable_getStaticParams")
+        const unstable_getServerProps = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_1__/* .hoist */ .l)(private_next_pages_app_tsx__WEBPACK_IMPORTED_MODULE_3__, "unstable_getServerProps")
+        const unstable_getServerSideProps = (0,next_dist_build_webpack_loaders_next_route_loader_helpers__WEBPACK_IMPORTED_MODULE_1__/* .hoist */ .l)(private_next_pages_app_tsx__WEBPACK_IMPORTED_MODULE_3__, "unstable_getServerSideProps")
+
+        // Create and export the route module that will be consumed.
+        const options = {"definition":{"kind":"PAGES","page":"/_app","pathname":"/_app","bundlePath":"","filename":""}}
+        const routeModule = new (next_dist_server_future_route_modules_pages_module__WEBPACK_IMPORTED_MODULE_0___default())({
+          ...options,
+          components: {
+            App: private_next_pages_app_tsx__WEBPACK_IMPORTED_MODULE_3__["default"],
+            Document: private_next_pages_document_tsx__WEBPACK_IMPORTED_MODULE_2__["default"],
+          },
+          userland: private_next_pages_app_tsx__WEBPACK_IMPORTED_MODULE_3__,
+        })
+        
+        
+    
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
 
 /***/ }),
 
-/***/ 4695:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ 6366:
+/***/ ((module) => {
 
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
+module.exports = require("@radix-ui/colors");
 
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ _app)
-});
+/***/ }),
 
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-// EXTERNAL MODULE: ./src/hooks/useThemeEffect.ts
-var useThemeEffect = __webpack_require__(185);
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(6689);
-// EXTERNAL MODULE: external "next/router"
-var router_ = __webpack_require__(1853);
-// EXTERNAL MODULE: ./site.config.js
-var site_config = __webpack_require__(9313);
-;// CONCATENATED MODULE: ./src/libs/gtag.ts
+/***/ 8982:
+/***/ ((module) => {
 
-const GA_TRACKING_ID = site_config.CONFIG.googleAnalytics.config.measurementId;
-// https://developers.google.com/analytics/devguides/collection/gtagjs/pages
-const pageview = (url)=>{
-    if (true) return;
-    window.gtag("config", GA_TRACKING_ID, {
-        page_path: url
-    });
-};
-// https://developers.google.com/analytics/devguides/collection/gtagjs/events
-const gtag_event = ({ action , category , label , value  })=>{
-    if (true) return;
-    window.gtag("event", action, {
-        event_category: category,
-        event_label: label,
-        value: value
-    });
-};
+module.exports = require("cookies-next");
 
-;// CONCATENATED MODULE: ./src/hooks/useGtagEffect.ts
+/***/ }),
 
+/***/ 3076:
+/***/ ((module) => {
 
+module.exports = require("next/dist/server/future/route-modules/route-module.js");
 
+/***/ }),
 
-const useGtagEffect = ()=>{
-    const router = (0,router_.useRouter)();
-    (0,external_react_.useEffect)(()=>{
-        if (!(site_config.CONFIG.isProd && site_config.CONFIG?.googleAnalytics?.enable)) return;
-        const handleRouteChange = (url)=>{
-            pageview(url);
-        };
-        router.events.on("routeChangeComplete", handleRouteChange);
-        return ()=>{
-            router.events.off("routeChangeComplete", handleRouteChange);
-        };
-    }, [
-        router.events
-    ]);
-    return null;
-};
-/* harmony default export */ const hooks_useGtagEffect = (useGtagEffect);
+/***/ 4140:
+/***/ ((module) => {
 
-;// CONCATENATED MODULE: external "next/script"
-const script_namespaceObject = require("next/script");
-var script_default = /*#__PURE__*/__webpack_require__.n(script_namespaceObject);
-;// CONCATENATED MODULE: ./src/components/Scripts.tsx
+module.exports = require("next/dist/server/get-page-files.js");
 
+/***/ }),
 
+/***/ 9716:
+/***/ ((module) => {
 
-const Scripts = ()=>/*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
-        children: site_config.CONFIG?.googleAnalytics?.enable === true && /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-            children: [
-                /*#__PURE__*/ jsx_runtime_.jsx((script_default()), {
-                    src: `https://www.googletagmanager.com/gtag/js?id=${site_config.CONFIG.googleAnalytics.config.measurementId}`
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx((script_default()), {
-                    strategy: "lazyOnload",
-                    id: "ga",
-                    children: `window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${site_config.CONFIG.googleAnalytics.config.measurementId}', {
-              page_path: window.location.pathname,
-            });`
-                })
-            ]
-        })
-    })
-;
-/* harmony default export */ const components_Scripts = (Scripts);
+module.exports = require("next/dist/server/htmlescape.js");
 
-;// CONCATENATED MODULE: ./src/pages/_app.tsx
+/***/ }),
 
+/***/ 3100:
+/***/ ((module) => {
 
+module.exports = require("next/dist/server/render.js");
 
+/***/ }),
 
+/***/ 6368:
+/***/ ((module) => {
 
+module.exports = require("next/dist/server/utils.js");
 
+/***/ }),
 
+/***/ 3280:
+/***/ ((module) => {
 
+module.exports = require("next/dist/shared/lib/app-router-context.js");
 
-function MyApp({ Component , pageProps  }) {
-    const getLayout = Component.getLayout || ((page)=>page
-    );
-    (0,useThemeEffect/* default */.Z)();
-    hooks_useGtagEffect();
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx(components_Scripts, {}),
-            getLayout(/*#__PURE__*/ jsx_runtime_.jsx(Component, {
-                ...pageProps
-            }))
-        ]
-    });
-}
-/* harmony default export */ const _app = (MyApp);
+/***/ }),
 
+/***/ 6724:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/constants.js");
+
+/***/ }),
+
+/***/ 2796:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/head-manager-context.js");
+
+/***/ }),
+
+/***/ 8743:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/html-context.js");
+
+/***/ }),
+
+/***/ 8524:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/is-plain-object.js");
+
+/***/ }),
+
+/***/ 4964:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router-context.js");
+
+/***/ }),
+
+/***/ 1751:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix.js");
+
+/***/ }),
+
+/***/ 3938:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/format-url.js");
+
+/***/ }),
+
+/***/ 1109:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/is-local-url.js");
+
+/***/ }),
+
+/***/ 8854:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/parse-path.js");
+
+/***/ }),
+
+/***/ 3297:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slash.js");
+
+/***/ }),
+
+/***/ 7782:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/resolve-href.js");
+
+/***/ }),
+
+/***/ 9232:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/utils.js");
 
 /***/ }),
 
@@ -178,10 +233,38 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ 997:
+/***/ 6405:
 /***/ ((module) => {
 
-module.exports = require("react/jsx-runtime");
+module.exports = require("react-dom");
+
+/***/ }),
+
+/***/ 3139:
+/***/ ((module) => {
+
+module.exports = import("@emotion/react");;
+
+/***/ }),
+
+/***/ 7101:
+/***/ ((module) => {
+
+module.exports = import("@emotion/react/jsx-runtime");;
+
+/***/ }),
+
+/***/ 4115:
+/***/ ((module) => {
+
+module.exports = import("@emotion/styled");;
+
+/***/ }),
+
+/***/ 9752:
+/***/ ((module) => {
+
+module.exports = import("@tanstack/react-query");;
 
 /***/ })
 
@@ -192,7 +275,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [313], () => (__webpack_exec__(4695)));
+var __webpack_exports__ = __webpack_require__.X(0, [278,535], () => (__webpack_exec__(6042)));
 module.exports = __webpack_exports__;
 
 })();
