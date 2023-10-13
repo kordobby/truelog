@@ -33,23 +33,3 @@ export function filterPosts(posts: TPosts, options: Options = initialOption) {
     })
   return filteredPosts
 }
-
-// 회고록
-// day28
-// day29
-// day 32
-// day 35
-// day 36
-// day 40
-// css-in-css
-// react life cycle -title
-// diary - fix image
-// monthly - august
-// debuggin
-// 불변성 - 숮정
-// immer - public
-// hardware
-// 동시성 병렬성
-// 9월
-// 회고록 수정
-// 클린코드
