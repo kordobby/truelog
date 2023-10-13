@@ -16,7 +16,7 @@ const CONFIG = {
       href: "",
     },
   ],
-  // blog setting (required)
+  // blog setting (required) //
   blog: {
     title: "truelog",
     description: "welcome to truelog!",
