@@ -9,7 +9,7 @@ export type MetaConfigProps = {
   image?: string;
   url: string;
 };
-//
+///
 const MetaConfig: React.FC<MetaConfigProps> = (props) => {
   return (
     <Head>
