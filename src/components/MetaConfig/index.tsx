@@ -1,15 +1,15 @@
-import { CONFIG } from "site.config"
-import Head from "next/head"
+import { CONFIG } from "site.config";
+import Head from "next/head";
 
 export type MetaConfigProps = {
-  title: string
-  description: string
-  type: "Website" | "Post" | "Page" | string
-  date?: string
-  image?: string
-  url: string
-}
-
+  title: string;
+  description: string;
+  type: "Website" | "Post" | "Page" | string;
+  date?: string;
+  image?: string;
+  url: string;
+};
+//
 const MetaConfig: React.FC<MetaConfigProps> = (props) => {
   return (
     <Head>
@@ -37,7 +37,7 @@ const MetaConfig: React.FC<MetaConfigProps> = (props) => {
         </>
       )}
     </Head>
-  )
-}
+  );
+};
 
-export default MetaConfig
+export default MetaConfig;
